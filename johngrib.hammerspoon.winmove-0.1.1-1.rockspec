@@ -1,5 +1,5 @@
 package = "johngrib.hammerspoon.winmove"
-version = "0.1-1"
+version = "0.1.1-1"
 
 local url = "github.com/johngrib/hammerspoon_winmove"
 local desc = "hammerspoon winmove"

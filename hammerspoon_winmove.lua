@@ -31,6 +31,7 @@ local function send_window_next_screen()
 end
 
 return {
+    ['default']      = move_win((left + right)/2, top, half_width, full_height),
     ['left_bottom']  = move_win(left, mid, half_width, half_height),
     ['bottom']       = move_win(left, mid, full_width, half_height),
     ['right_bottom'] = move_win(right, mid, half_width, half_height),
